@@ -28,7 +28,7 @@ Using Laplacian operator from cv2,detect the edges of the image and Using Canny 
 ```
 import cv2
 import matplotlib.pyplot as plt
-img = cv2.imread('rome.png')
+img = cv2.imread('SEC.png')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 gray = cv2.GaussianBlur(gray, (3, 3), 0)
 sobelx = cv2.Sobel(gray, cv2.CV_64F, 1, 0, ksize=5)
